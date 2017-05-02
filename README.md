@@ -46,3 +46,17 @@ Implement a MapReduce program to determine the best time to post a tweet.
 
 PPT:
 https://github.com/saijyothi9/PB_Twitter-Analysis_Spring-2017/blob/master/Phase2/Documentation/PB_phase2.pdf
+
+Phase3:
+
+Main Requirements:
+
+Using a collection of tweets, implement three analytical tasks. A single task could consist of multiple analytical queries. 
+• One task must be implemented via RDD transformations and actions only.  
+• Must NOT be a simple word count (e.g. most used language). 
+• The other two tasks must be implemented via Spark SQL and DFs. 
+• One of your analytical queries must use the input file trends.txt. 
+
+Extra Requirement: 
+• Implement a graphical user interface that enable the user to dynamically execute your analytical tasks and provide a visual representation of the results. 
+• Flow: the user selects an analytical task, the task is executed in the backend, the results are returned and displayed to the user in a visual representation (e.g. pie chart).
